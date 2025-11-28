@@ -1,0 +1,9 @@
+backend
+node_modules
+.git
+*.md
+setup.sh
+setup.bat
+docker-compose.yml
+render.yaml
+.claude

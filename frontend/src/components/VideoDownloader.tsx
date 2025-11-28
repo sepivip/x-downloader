@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Download, AlertCircle, Twitter, Sparkles } from 'lucide-react';
 import { useVideoDownloader } from '../hooks/useVideoDownloader';
