@@ -2,7 +2,8 @@ import { useState } from 'react';
 import axios from 'axios';
 import { VideoData, DownloadStatus, DownloadResponse } from '../types';
 
-const API_URL = import.meta.env.VITE_API_URL || '/api';
+const API_BASE_URL = import.meta.env.VITE_API_URL || '';
+const API_URL = API_BASE_URL ? `${API_BASE_URL}/api` : '/api';
 
 export function useVideoDownloader() {
   const [status, setStatus] = useState<DownloadStatus>('idle');
