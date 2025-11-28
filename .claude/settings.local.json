@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init:*)",
+      "Bash(git config:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: Twitter/X Video Downloader\n\nFeatures:\n- React 18 + TypeScript frontend with Vite\n- Node.js + Express backend with TypeScript\n- Beautiful UI with Tailwind CSS and dark mode\n- Video quality selection and preview\n- Rate limiting and caching\n- Docker support\n- Multiple deployment options\n- Comprehensive documentation\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
