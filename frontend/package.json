@@ -14,7 +14,8 @@
     "react-dom": "^18.2.0",
     "framer-motion": "^10.16.4",
     "axios": "^1.6.2",
-    "lucide-react": "^0.294.0"
+    "lucide-react": "^0.294.0",
+    "serve": "^14.2.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
